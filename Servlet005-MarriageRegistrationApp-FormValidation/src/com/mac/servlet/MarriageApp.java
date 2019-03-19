@@ -13,7 +13,7 @@ import javax.servlet.http.HttpServletResponse;
 public class MarriageApp extends HttpServlet {
 	private static final long serialVersionUID = 1L;
 
-	public void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+	public void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		PrintWriter pw = null;
 		String name = null, tage=null, gender=null;
 		int age=0;
@@ -37,9 +37,5 @@ public class MarriageApp extends HttpServlet {
 		pw.println("<a href='check_eligibility.html'><img src='home.png' alt='home'></a>");
 		//close stream
 		pw.close();
-	}//doGet(-)
-	@Override
-	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-		doGet(request, response);
 	}//doPost(-)
 }//class
