@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>check eligibility</title>
+<script type="text/javascript" src="js/validation.js"></script>
+</head>
+<body>
+	<h1 style="color:blue;text-align:center">Welcome to Marriage Registration System</h1>
+	<h3 style="color:red;text-align:center">fill the form to check eligibility</h3>
+	<div align="center">
+	<form action="checkurl" method="post" name="check" onsubmit="return validForm(this)">
+	Applicant Name ::<input type="text" name="name"><span id="errName" style="color:red"></span><br><br>
+	Applicant Age  ::<input type="password" name="age"><span id="errAge" style="color:red"></span><br><br>
+	<div align="center">
+	Applicant Gender ::<br><input type="radio" name="gender" value="male">Male<br>
+					  <input type="radio" name="gender" value="female" checked>Female</div>
+	<input type="submit" value="Check Eligibility">
+	</form>
+	</div>
+</body>
+</html>
