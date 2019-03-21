@@ -9,17 +9,15 @@
 	<h1 style="color:blue;text-align:center">Welcome to Marriage Registration System</h1>
 	<h3 style="color:red;text-align:center">fill the form to check eligibility</h3>
 	<div align="center">
-	<script>
 	<form action="checkurl" method="post" name="check" onsubmit="return validForm(this)">
 	Applicant Name ::<input type="text" name="name"><span id="errName" style="color:red"></span><br><br>
 	Applicant Age  ::<input type="password" name="age"><span id="errAge" style="color:red"></span><br><br>
+	<input type="hidden" name="vflag" value="no"/>
 	<div align="center">
 	Applicant Gender ::<br><input type="radio" name="gender" value="male">Male<br>
 					  <input type="radio" name="gender" value="female" checked>Female</div>
 	<input type="submit" value="Check Eligibility">
 	</form>
-	</script>
-	<noscript><h4 style="color:red">Please Enable JavaScript on you browser</h4></noscript>
 	</div>
 </body>
 </html>
