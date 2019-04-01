@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
-    <wb-module deploy-name="Servlet006-MarriageRegistrationApp">
+    <wb-module deploy-name="Servlet004-CountryWithCitiesApp">
         <wb-resource deploy-path="/" source-path="/WebContent" tag="defaultRootSource"/>
         <wb-resource deploy-path="/WEB-INF/classes" source-path="/src"/>
-        <property name="java-output-path" value="/Servlet006-MarriageRegistrationApp/build/classes"/>
-        <property name="context-root" value="Servlet006-MarriageRegistrationApp"/>
+        <property name="context-root" value="Servlet004-CountryWithCitiesApp"/>
+        <property name="java-output-path" value="/Servlet004-CountryWithCitiesApp/build/classes"/>
     </wb-module>
 </project-modules>
